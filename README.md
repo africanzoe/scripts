@@ -45,3 +45,9 @@ output of the command
 
 3/3: [host3]
 output of the command
+
+---
+### Bash getopts template
+[getopts template](getopts.template.sh): is a template of a bash script that has options using the function "getopts".
+
+
