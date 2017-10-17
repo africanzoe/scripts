@@ -12,7 +12,7 @@ def space_eater(path, show=False):
         try:
             for f in os.scandir(path):
                 if ' ' in f.name:
-                    print(" [ {} ] {:<} -> {:<}".format('d' if f.is_dir() else 'f', path+f.name, path+f.name.replace(" ", "_")))
+                    print(" [ {} ] {:<} -> {:<}".format('d' if f.is_dir() else 'f', path+'/'+f.name, path+'/'+f.name.replace(" ", "_")))
                 elif f.is_dir():
                     space_eater(path+'/'+f.name, True)
         except:
