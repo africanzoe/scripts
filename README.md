@@ -50,4 +50,6 @@ output of the command
 ### Bash getopts template
 [getopts template](getopts.template.sh): is a template of a bash script that has options using the function "getopts".
 
-
+---
+### Ansible-playbook bash completion for inventory option
+[Ansible-playbook inventory bash completion](ansible.bash): is a bash completion script to be placed in /etc/bash_completion.d
