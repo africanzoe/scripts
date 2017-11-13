@@ -52,4 +52,4 @@ output of the command
 
 ---
 ### Ansible-playbook bash completion for inventory option
-[Ansible-playbook inventory bash completion](ansible.bash): is a bash completion script to be placed in /etc/bash_completion.d
+Ansible-playbook inventory [bash completion](ansible.bash): is a bash completion script to be placed in /etc/bash_completion.d, it will complete the inventory for you after the option "-l" of Ansible-playbook command.
