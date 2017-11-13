@@ -1,5 +1,6 @@
 #!/bin/bash
- 
+set -eo pipefail
+
 while getopts :a: opt; do
   case $opt in
     a)
