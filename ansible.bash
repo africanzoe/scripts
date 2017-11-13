@@ -5,7 +5,7 @@ _ansible_playbook ()
 
     COMPREPLY=()
     words=("${COMP_WORDS[@]}")
-    # Check if the option "-i or "--inventory-file" is present in the COMP_WORDS
+    # Check if the option "-i" or "--inventory-file" is present in the COMP_WORDS
     check=$(echo "${COMP_WORDS[@]}" | egrep -- '-i |--inventory-file')
     if [[ "$check" ]]
     then
