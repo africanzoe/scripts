@@ -2,6 +2,9 @@
 
 Scripts that maybe usefull.
 
+### GitLab CLI
+GitLab CLI that allows you to display groups/users/projects/import-export projects between different GitLabs and more. Refer to the [README](gitlab/README.md) for more information.
+
 ### Parallel execution
 [pexec](pexec.sh): Bash script for parallel execution of the same command on N nodes.
 
@@ -42,5 +45,4 @@ output of the command
 Ansible-playbook inventory [bash completion](ansible.bash): is a bash completion script to be placed in /etc/bash_completion.d, it will complete the inventory for you after the option "-l" of Ansible-playbook command.
 
 ### Pass software bash completion
-
-### [GitLab CLI](gitlab/README.md)
+Bash script to source at login for ex to be able to have Bash completion for `pass` software.
